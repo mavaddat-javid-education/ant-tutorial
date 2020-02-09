@@ -1,0 +1,4 @@
+apache-ant/
+*.class
+build/jar/HelloWorld.jar
+antTutorial.code-workspace
