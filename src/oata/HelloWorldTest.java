@@ -1,17 +1,17 @@
 package oata;
-import static org.junit.jupiter.api.Assertions.*;
-import org.junit.jupiter.api.*;
 
-public class HelloWorldTest
-{
+import static org.junit.jupiter.api.Assertions.fail;
+
+import org.junit.jupiter.api.Test;
+public class HelloWorldTest {
+
     @Test
-    public void testNothing()
-    {
-    
+    public void testNothing() {
     }
+
     @Test
-    public void testWillAlwaysFail()
-    {
+    public void testWillAlwaysFail() {
         fail("An error message");
     }
+
 }
